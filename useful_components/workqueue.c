@@ -3,7 +3,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-
 pthread_cond_t qready = PTHREAD_COND_INITIALIZER;
 pthread_mutex_t qlock = PTHREAD_MUTEX_INITIALIZER;
 
