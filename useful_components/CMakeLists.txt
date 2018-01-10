@@ -9,12 +9,12 @@ set(source_files_workqueue
 add_executable(workqueue ${source_files_workqueue})
 target_link_libraries(workqueue pthread)
 
-
 set(source_files_dynamic
     vector.c
 )
 add_executable(vector ${source_files_dynamic})
 
-
-
-
+set(source_files_avl
+    avl.c
+)
+add_executable(avl ${source_files_avl})
